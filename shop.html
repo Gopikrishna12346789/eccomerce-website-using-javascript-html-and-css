@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+
+  <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+<body>
+    
+ <!-- ............... ..................  header .................... -->
+    <header class="header"> 
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(+01) - 2345 - 6789</span>
+                     <span> Our location</span>
+                </div>
+                
+                <p class="header__alert-news">
+                    Super Value Deals -save more with coupons
+                </p>
+                
+                <a href="login-register.html" class="header__top-action">
+                    Login / Sign Up
+                </a>
+
+            </div>
+        
+        </div>
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="https://logo.com/image-cdn/images/kts928pd/production/16e479a89e4fd9e607f8b4c9861f85a13307230e-392x400.png?w=1080&q=72" height=90px width=120px/>
+                </a>
+           
+           <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                 <a href="index.html" class="nav__link" >Home</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="shop.html" class="nav__link active-link">Shop</a>
+             </li>
+
+             <li class="nav__item">
+                <a href="accounts.html" class="nav__link">My Account</a>
+             </li>
+
+             <li class="nav__item">
+                <a href="compare.html" class="nav__link">Compare</a>
+             </li>
+
+
+             <li class="nav__item">
+                <a href="login-register.html" class="nav__link">Login</a>
+             </li>
+
+            </ul>
+
+
+            <div class="header__search">
+                  
+                <input type="text" placeholder="Search for items.." class="form__input"/>
+
+            <button  class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+           </div>
+
+           <div class="header__user-actions">
+            <a href="wishlist.html" class="header__action-btn">
+                <i class="fa-regular fa-heart"></i>
+                <span class="count">3</span>
+            </a>
+
+            <a href="cart.html" class="header__action-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="count">3</span>
+            </a>
+
+           </div>
+        </nav>
+
+     </header>
+
+<!-- .....................................  main  ............................. -->
+<main class="main">
+
+
+    <!-- ...................................  BreadCrumb     ............... -->
+
+     <section class="breadcrumb">
+        <ul class="breadcrumb__list  flex container">
+            <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+            <li><span class="breadcrumb__link">></span></li>
+            <li><span class="breadcrumb__link">Shop</span></li>
+        </ul>
+     </section>
+
+<!-- .......................................   products ................. -->
+        <section class="products section--lg container">
+            <p class="total__products">We found <span>688</span> items for you !</p>
+
+            <div class="products__container grid">
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-1-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-1-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">Hot</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$225.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-2-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-2-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-green">Hot</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-3-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-3-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-orange">Hot</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-4-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-4-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-blue">Hot</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-5-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-5-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">30%</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-6-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-6-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">22%</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-7-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-7-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-green">hot</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-8-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-8-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-5-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-5-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">30%</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-6-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-6-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">22%</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-7-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-7-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-green">hot</div>
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">colorful pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-8-1.jpg" class="product__img default"/>
+                             
+                            <img src="C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\product-8-2.jpg" class="product__img hover"/>
+                        </a>
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="quick">
+                                <i class="fa-regular fa-eye"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="add to">
+                                <i class="fa-regular fa-heart"></i>
+                     
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="compare">
+                                <i class="fa-solid fa-share-nodes"></i>
+                     
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="product__content">
+                        <span class="product__category">Clothing</span>
+                        <a href="details.html">
+                            <h3 class="product__title">Colorful Pattern Shirts</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="product__price flex">
+                            <span class="new__price">$223.45</span>
+                            <span class="old__price">$223.45</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="pagination">
+                <li><a href="" class="pagination__link active">01</a></li>
+                <li><a href="" class="pagination__link">02</a></li>
+                <li><a href="" class="pagination__link">03</a></li>
+                <li><a href="" class="pagination__link">...</a></li>
+                <li><a href="" class="pagination__link">16</a></li>
+                <li><a href="" class="pagination__link icon">
+                    <i class="fa-solid fa-angles-right"></i>
+                </a></li>
+            </ul>
+        </section>
+
+     <!-- ...............................   news letter...................... -->
+     <section class="newsletter section">
+        <div class="newsletter__container container grid">
+            <h3 class="newsletter__title flex">
+                <img src="file:///C:/Users/User/Desktop/ecommerce%20project/ecommerce%20website/ecommerce%20website/assets/img/icon-email.svg" class="newsletter__icon"/>
+              Sign up to Newsletter                
+            </h3>
+
+            <p class="news_letter__description">... and receives $25 coupon for first shopping</p>
+
+            <form action="" class="newsletter__form">
+                <input type="text" placeholder="Enter your mail" class="newsletter__input"/>
+                <button type="submit" class="newsletter__btn">Subscribe</button>
+            </form>
+        </div>
+     </section>
+
+</main>
+     <!-- ................................... footer .............................. -->
+     <footer class="footer container">
+        <div class="footer__container grid">
+            <div class="footer__content">
+                <a href="index.html" class="footer__logo">
+                    <img src="https://logo.com/image-cdn/images/kts928pd/production/16e479a89e4fd9e607f8b4c9861f85a13307230e-392x400.png?w=1080&q=72" height=90px width=120px class="footer__logo-img"/>
+                </a>
+                
+                <h4 class="footer__subtitle">Contact</h4>
+                <p class="footer__description">
+                    <span>Address:</span> 562 wellington Road, street 32,san Francisco
+                </p>
+
+                <p class="footer__description">
+                    <span>phone:</span> +01 222 365/(+91) 01 2345 6789
+                </p>
+
+                <p class="footer__description">
+                    <span>Hours:</span> 10:00 -18:00, Mon - Sat
+                </p>
+
+                <div class="footer__social">
+                   <h4 class="footer__subtitle">Follow me</h4>
+                   
+                   <div class="footer__social-links flex">
+                    <a href="">
+                        <img src="file:///C:/Users/User/Desktop/ecommerce%20project/ecommerce%20website/ecommerce%20website/assets/img/icon-facebook.svg" class="footer__social-icon"/>
+                    </a>
+
+                    <a href="">
+                        <img src="file:///C:/Users/User/Desktop/ecommerce%20project/ecommerce%20website/ecommerce%20website/assets/img/icon-twitter.svg" class="footer__social-icon"/>
+                    </a>
+
+                    <a href="">
+                        <img src="file:///C:/Users/User/Desktop/ecommerce%20project/ecommerce%20website/ecommerce%20website/assets/img/icon-instagram.svg" class="footer__social-icon"/>
+                    </a>
+
+                    <a href="">
+                        <img src="file:///C:/Users/User/Desktop/ecommerce%20project/ecommerce%20website/ecommerce%20website/assets/img/icon-pinterest.svg" class="footer__social-icon"/>
+                    </a>
+
+                    <a href="">
+                        <img src="file:///C:/Users/User/Desktop/ecommerce%20project/ecommerce%20website/ecommerce%20website/assets/img/icon-youtube.svg" class="footer__social-icon"/>
+                    </a>
+                   </div>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Address
+                </h3>
+                <ul class="footer__links">
+                    <li><a href="" class="footer__link">About Us</a></li>
+                    <li><a href="" class="footer__link">Delivery information</a></li>
+                    <li><a href="" class="footer__link">privacy policy</a></li>
+                    <li><a href="" class="footer__link">terms & conditions</a></li>
+                    <li><a href="" class="footer__link">Contact Us</a></li>
+                    <li><a href="" class="footer__link">Support Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    My Accout
+                </h3>
+                <ul class="footer__links">
+                    <li><a href="" class="footer__link">Sign In</a></li>
+                    <li><a href="" class="footer__link">View Cart</a></li>
+                    <li><a href="" class="footer__link">My Wishlist</a></li>
+                    <li><a href="" class="footer__link">Track My Orders</a></li>
+                    <li><a href="" class="footer__link">Help</a></li>
+                    <li><a href="" class="footer__link">Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Secured Payment Gateway</h3>
+              <img src=" C:\Users\User\Desktop\ecommerce project\ecommerce website\ecommerce website\assets\img\payment-method.png"/> 
+        </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="copyrights">&copy; 2023 ecommerce. All rights reserved</p>
+            <span class="designer">Designed by GopiKrishan</span>
+        </div>
+    </footer>
+
+
+
+        <!-- ........................  swiper js ..................... -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+     <!-- ................................ main js ..................... -->
+     <script src="./main.js"></script>
+
+</body>
+</html>
